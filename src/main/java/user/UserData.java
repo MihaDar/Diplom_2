@@ -10,13 +10,6 @@ public class UserData {
         return new User(email, password, name);
     }
 
-//    public static User getUserDataNew(){
-//        final String email = "diplom_qa_java_21_sun@yandex.ru";
-//        final String password = "1234567";
-//        final String name = "Диплом2";
-//        return new User(email, password, name);
-//    }
-
     public static User getUserDataWithoutEmail(){
         final String email = null;
         final String password = "12345";
